@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="cake-img-div">
         <img
           className="cake-img"
-          src="/bostan/src/Components/images/aboutUs.png"
+          src="bostan/assets/aboutUs.png"
           alt="Cake picture"
         />
       </div>
