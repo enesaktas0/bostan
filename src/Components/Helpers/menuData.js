@@ -10,7 +10,7 @@ export const menuData = [
   },
   {
     name: "Ekler",
-    image: "./ekler.jpg",
+    image: "ekler.jpg",
     desription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, reiciendis.",
     price: 200,
