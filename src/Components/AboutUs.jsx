@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div className="about">
       <div className="cake-img-div">
-        <img className="cake-img" src="./aboutUs.png" alt="Cake picture" />
+        <img className="cake-img" src="aboutUs.png" alt="Cake picture" />
       </div>
       <div className="about-text">
         <h2>Hakkımızda</h2>
