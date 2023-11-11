@@ -4,13 +4,10 @@ import "./CCSS/Menu.css";
 
 export default function Menu() {
   const card = menuData.map((m, index) => {
+    const pictureURL = `/bostan/src/Components/images/${m.image}`;
     return (
       <div key={index} className="card">
-        <img
-          className="product-image"
-          src={"./" + m.image}
-          alt="product-image"
-        />
+        <img className="product-image" src={pictureURL} alt="product-image" />
         <h3> {m.name}</h3>
         <p className="description">{m.desription}</p>
         <p>
