@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="nav-bar">
       <Link to="/">
-        <img className="bostan-logo" src="bostanLogo.png" alt="bostan logo" />
+        <img className="bostan-logo" src="./bostanLogo.png" alt="bostan logo" />
       </Link>
       <div>
         <NavLink className="nav-link" to="/">
