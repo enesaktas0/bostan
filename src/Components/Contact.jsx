@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="bostan-store">
-        <img className="store-img" src="bostanStore.jpeg" alt="store-img" />
+        <img className="store-img" src="./bostanStore.jpeg" alt="store-img" />
       </div>
       <div className="contact-info">
         <div className="contact-type">
