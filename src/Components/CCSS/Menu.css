@@ -1,0 +1,28 @@
+.menu-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    cursor: pointer;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 1px 5px 5px 5px rgb(115, 115, 115) ;
+}
+.card:hover{
+    box-shadow: 5px 10px 10px 10px rgb(115, 115, 115) ;
+}
+.product-image{
+    width: 250px;
+    border-radius: 20px;
+}
+.description{
+    font-style:italic;
+    text-align: center;
+}
